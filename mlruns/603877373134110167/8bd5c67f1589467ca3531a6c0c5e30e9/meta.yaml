@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/guilhermetyszka/Documents/Python/MLFlow/mlruns/603877373134110167/8bd5c67f1589467ca3531a6c0c5e30e9/artifacts
+end_time: 1720976372412
+entry_point_name: ''
+experiment_id: '603877373134110167'
+lifecycle_stage: active
+run_id: 8bd5c67f1589467ca3531a6c0c5e30e9
+run_name: gentle-tern-714
+run_uuid: 8bd5c67f1589467ca3531a6c0c5e30e9
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1720976370344
+status: 3
+tags: []
+user_id: guilhermetyszka

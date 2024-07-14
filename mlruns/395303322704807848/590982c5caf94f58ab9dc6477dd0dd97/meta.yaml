@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/guilhermetyszka/Documents/Python/MLFlow/mlruns/395303322704807848/590982c5caf94f58ab9dc6477dd0dd97/artifacts
+end_time: 1720972701742
+entry_point_name: ''
+experiment_id: '395303322704807848'
+lifecycle_stage: active
+run_id: 590982c5caf94f58ab9dc6477dd0dd97
+run_name: brawny-quail-516
+run_uuid: 590982c5caf94f58ab9dc6477dd0dd97
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1720972700361
+status: 3
+tags: []
+user_id: guilhermetyszka

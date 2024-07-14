@@ -1,0 +1,4 @@
+ColumnTransformer(transformers=[('num', StandardScaler(),
+                                 Index(['carat', 'depth', 'table', 'x', 'y', 'z'], dtype='object')),
+                                ('cat', OneHotEncoder(drop='first'),
+                                 Index([], dtype='object'))])

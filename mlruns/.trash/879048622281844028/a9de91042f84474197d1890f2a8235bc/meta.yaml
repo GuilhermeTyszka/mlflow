@@ -1,0 +1,16 @@
+artifact_uri: file:///Users/guilhermetyszka/Documents/Python/MLFlow/mlruns/879048622281844028/a9de91042f84474197d1890f2a8235bc/artifacts
+deleted_time: 1720971561960
+end_time: 1720970643178
+entry_point_name: ''
+experiment_id: '879048622281844028'
+lifecycle_stage: deleted
+run_id: a9de91042f84474197d1890f2a8235bc
+run_name: adaptable-turtle-413
+run_uuid: a9de91042f84474197d1890f2a8235bc
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1720970640557
+status: 3
+tags: []
+user_id: guilhermetyszka

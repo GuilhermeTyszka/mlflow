@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/guilhermetyszka/Documents/Python/MLFlow/mlruns/603877373134110167/19599ba5a04f46679cde2e8823d59c08/artifacts
+end_time: 1720976811389
+entry_point_name: ''
+experiment_id: '603877373134110167'
+lifecycle_stage: active
+run_id: 19599ba5a04f46679cde2e8823d59c08
+run_name: smiling-moth-939
+run_uuid: 19599ba5a04f46679cde2e8823d59c08
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1720976809835
+status: 3
+tags: []
+user_id: guilhermetyszka

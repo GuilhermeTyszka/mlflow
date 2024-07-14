@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/guilhermetyszka/Documents/Python/MLFlow/mlruns/395303322704807848/02b60a5184ea4158b6a14172d24a1584/artifacts
+end_time: 1720972615650
+entry_point_name: ''
+experiment_id: '395303322704807848'
+lifecycle_stage: active
+run_id: 02b60a5184ea4158b6a14172d24a1584
+run_name: colorful-moose-917
+run_uuid: 02b60a5184ea4158b6a14172d24a1584
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1720972614123
+status: 3
+tags: []
+user_id: guilhermetyszka

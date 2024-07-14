@@ -1,0 +1,4 @@
+[('preprocessor', ColumnTransformer(transformers=[('num', StandardScaler(),
+                                 Index(['carat', 'depth', 'table', 'x', 'y', 'z'], dtype='object')),
+                                ('cat', OneHotEncoder(drop='first'),
+                                 Index([], dtype='object'))])), ('model', RandomForestRegressor(max_depth=5, n_estimators=50, random_state=42))]

@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/guilhermetyszka/Documents/Python/MLFlow/mlruns/603877373134110167/3d02a8ae01404e478f1b6797abc5babd/artifacts
+end_time: 1720976796515
+entry_point_name: ''
+experiment_id: '603877373134110167'
+lifecycle_stage: active
+run_id: 3d02a8ae01404e478f1b6797abc5babd
+run_name: monumental-kite-698
+run_uuid: 3d02a8ae01404e478f1b6797abc5babd
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1720976795036
+status: 3
+tags: []
+user_id: guilhermetyszka

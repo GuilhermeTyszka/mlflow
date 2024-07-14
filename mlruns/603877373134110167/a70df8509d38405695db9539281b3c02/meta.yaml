@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/guilhermetyszka/Documents/Python/MLFlow/mlruns/603877373134110167/a70df8509d38405695db9539281b3c02/artifacts
+end_time: 1720975879497
+entry_point_name: ''
+experiment_id: '603877373134110167'
+lifecycle_stage: active
+run_id: a70df8509d38405695db9539281b3c02
+run_name: valuable-hog-885
+run_uuid: a70df8509d38405695db9539281b3c02
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1720975879412
+status: 4
+tags: []
+user_id: guilhermetyszka

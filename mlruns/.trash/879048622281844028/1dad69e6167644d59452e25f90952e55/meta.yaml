@@ -1,0 +1,16 @@
+artifact_uri: file:///Users/guilhermetyszka/Documents/Python/MLFlow/mlruns/879048622281844028/1dad69e6167644d59452e25f90952e55/artifacts
+deleted_time: 1720971561960
+end_time: 1720970634290
+entry_point_name: ''
+experiment_id: '879048622281844028'
+lifecycle_stage: deleted
+run_id: 1dad69e6167644d59452e25f90952e55
+run_name: wistful-crane-991
+run_uuid: 1dad69e6167644d59452e25f90952e55
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1720970633049
+status: 4
+tags: []
+user_id: guilhermetyszka

@@ -1,0 +1,16 @@
+artifact_uri: file:///Users/guilhermetyszka/Documents/Python/MLFlow/mlruns/395303322704807848/143091ad942a42d3bedc06dc5481b420/artifacts
+deleted_time: 1720971610625
+end_time: 1720971567468
+entry_point_name: ''
+experiment_id: '395303322704807848'
+lifecycle_stage: deleted
+run_id: 143091ad942a42d3bedc06dc5481b420
+run_name: painted-midge-692
+run_uuid: 143091ad942a42d3bedc06dc5481b420
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1720971566094
+status: 4
+tags: []
+user_id: guilhermetyszka

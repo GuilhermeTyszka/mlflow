@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/guilhermetyszka/Documents/Python/MLFlow/mlruns/603877373134110167/3390416a5d5d46f4ba2ceacfac86b872/artifacts
+end_time: 1720976879660
+entry_point_name: ''
+experiment_id: '603877373134110167'
+lifecycle_stage: active
+run_id: 3390416a5d5d46f4ba2ceacfac86b872
+run_name: funny-dolphin-619
+run_uuid: 3390416a5d5d46f4ba2ceacfac86b872
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1720976878051
+status: 3
+tags: []
+user_id: guilhermetyszka

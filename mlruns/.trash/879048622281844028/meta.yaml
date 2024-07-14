@@ -1,0 +1,7 @@
+artifact_location: file:///Users/guilhermetyszka/Documents/Python/MLFlow/mlruns/879048622281844028
+creation_time: 1720970596807
+experiment_id: '879048622281844028'
+last_update_time: 1720971561960
+lifecycle_stage: deleted
+name: diamonds-price-prediction
+tags: {}

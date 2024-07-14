@@ -1,0 +1,16 @@
+artifact_uri: file:///Users/guilhermetyszka/Documents/Python/MLFlow/mlruns/879048622281844028/cc423caebf6b4f919261b4e23e4506d9/artifacts
+deleted_time: 1720971561960
+end_time: 1720970598237
+entry_point_name: ''
+experiment_id: '879048622281844028'
+lifecycle_stage: deleted
+run_id: cc423caebf6b4f919261b4e23e4506d9
+run_name: marvelous-shrimp-547
+run_uuid: cc423caebf6b4f919261b4e23e4506d9
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1720970596811
+status: 4
+tags: []
+user_id: guilhermetyszka

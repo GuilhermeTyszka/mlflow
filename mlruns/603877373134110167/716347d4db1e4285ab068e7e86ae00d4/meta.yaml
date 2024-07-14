@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/guilhermetyszka/Documents/Python/MLFlow/mlruns/603877373134110167/716347d4db1e4285ab068e7e86ae00d4/artifacts
+end_time: 1720975069826
+entry_point_name: ''
+experiment_id: '603877373134110167'
+lifecycle_stage: active
+run_id: 716347d4db1e4285ab068e7e86ae00d4
+run_name: upbeat-frog-864
+run_uuid: 716347d4db1e4285ab068e7e86ae00d4
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1720975069772
+status: 4
+tags: []
+user_id: guilhermetyszka

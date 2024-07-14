@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/guilhermetyszka/Documents/Python/MLFlow/mlruns/603877373134110167/023125e204064702b1149a8b79323934/artifacts
+end_time: 1720976659836
+entry_point_name: ''
+experiment_id: '603877373134110167'
+lifecycle_stage: active
+run_id: 023125e204064702b1149a8b79323934
+run_name: worried-shrimp-933
+run_uuid: 023125e204064702b1149a8b79323934
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1720976658399
+status: 3
+tags: []
+user_id: guilhermetyszka

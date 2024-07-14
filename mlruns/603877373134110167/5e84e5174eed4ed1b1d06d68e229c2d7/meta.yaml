@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/guilhermetyszka/Documents/Python/MLFlow/mlruns/603877373134110167/5e84e5174eed4ed1b1d06d68e229c2d7/artifacts
+end_time: 1720976406727
+entry_point_name: ''
+experiment_id: '603877373134110167'
+lifecycle_stage: active
+run_id: 5e84e5174eed4ed1b1d06d68e229c2d7
+run_name: powerful-fish-274
+run_uuid: 5e84e5174eed4ed1b1d06d68e229c2d7
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1720976405067
+status: 3
+tags: []
+user_id: guilhermetyszka

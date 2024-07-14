@@ -1,0 +1,16 @@
+artifact_uri: file:///Users/guilhermetyszka/Documents/Python/MLFlow/mlruns/879048622281844028/0135ab6de67a424a96c084b73c3840a5/artifacts
+deleted_time: 1720971561960
+end_time: 1720970657425
+entry_point_name: ''
+experiment_id: '879048622281844028'
+lifecycle_stage: deleted
+run_id: 0135ab6de67a424a96c084b73c3840a5
+run_name: agreeable-boar-819
+run_uuid: 0135ab6de67a424a96c084b73c3840a5
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1720970654822
+status: 3
+tags: []
+user_id: guilhermetyszka
