@@ -1,17 +1,40 @@
-from mlflow.tracking.request_header.abstract_request_header_provider import RequestHeaderProvider
+import os
+import http.server
+import socketserver
+from functools import partial
 
-class BasicAuthHeaderProvider(RequestHeaderProvider):
-    def __init__(self, token):
-        self.token = token
+class ArtifactHTTPHandler(http.server.SimpleHTTPRequestHandler):
+    def __init__(self, *args, artifact_root=None, **kwargs):
+        self.artifact_root = artifact_root
+        super().__init__(*args, directory=artifact_root, **kwargs)
+    
+    def do_PUT(self):
+        path = self.translate_path(self.path)
+        if not path.startswith(self.artifact_root):
+            self.send_error(403, "Forbidden")
+            return
+            
+        os.makedirs(os.path.dirname(path), exist_ok=True)
+        content_length = int(self.headers['Content-Length'])
+        
+        with open(path, 'wb') as f:
+            f.write(self.rfile.read(content_length))
+        
+        self.send_response(201)
+        self.end_headers()
+        self.wfile.write(b"Artifact uploaded successfully")
 
-    def in_context(self):
-        return True
+def run_artifact_server(port=8000, artifact_root=None):
+    handler = partial(ArtifactHTTPHandler, artifact_root=artifact_root)
+    with socketserver.TCPServer(("", port), handler) as httpd:
+        print(f"Serving artifacts from {artifact_root} on port {port}")
+        httpd.serve_forever()
 
-    def request_headers(self):
-        return {"Authorization": self.token}
-
-# Registra o provider globalmente
-import mlflow.tracking.request_header.registry
-mlflow.tracking.request_header.registry.register_request_header_provider(
-    BasicAuthHeaderProvider(auth_header)
-)
+if __name__ == "__main__":
+    import argparse
+    parser = argparse.ArgumentParser()
+    parser.add_argument("--port", type=int, default=8000)
+    parser.add_argument("--artifact-root", required=True)
+    args = parser.parse_args()
+    
+    run_artifact_server(port=args.port, artifact_root=args.artifact_root)
